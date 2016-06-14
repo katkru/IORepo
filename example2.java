@@ -22,7 +22,7 @@ public class AssistiveExample extends JPanel
   JCheckBox componentCheckBox = new JCheckBox("Component", true);
 =======
   JCheckBox textCheckBox = new JCheckBox("Text2", false);
-  JCheckBox valueCheckBox = new JCheckBox("Value", false);
+  JCheckBox valueCheckBox = new JCheckBox("Value12345678", false);
   JCheckBox componentCheckBox = new JCheckBox("Compopopoonent", false);
 >>>>>>> 56ed512a9a1eef1b60ec2da4ced1f0ddf0ea9e51
   JCheckBox actionCheckBox = new JCheckBox("Action", false);
