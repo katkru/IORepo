@@ -34,24 +34,6 @@ public class AssistiveExample extends JPanel
     // Insert the appropriate labels and check boxes
     setLayout(new GridLayout(0,1));  // just make as many rows as we need
 
-    add(nameLabel);
-    add(descriptionLabel);
-    add(tableLabel);
-    add(new JSeparator());
-    add(actionCheckBox);
-    add(componentCheckBox);
-    add(editableTextCheckBox);
-    add(hypertextCheckBox);
-    add(iconCheckBox);
-    add(selectionCheckBox);
-    add(tableCheckBox);
-    add(textCheckBox);
-    add(valueCheckBox);
-    add(classLabel);
-    add(parentLabel);
-    add(relationLabel);
-    add(performAction);
-
     setBorder(new TitledBorder("Accessible Component"));
 
     performAction.addActionListener(this);
