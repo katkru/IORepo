@@ -76,15 +76,7 @@ public class AssistiveExample extends JPanel
     createGUI();
   }
 
-  public void createGUI() {
-    //  We want to track the mouse motions, so notify the
-    //  Swing event monitor of this.
-    SwingEventMonitor.addMouseMotionListener(this);
-
-    //  Start a Timer object to measure how long the mouse stays
-    //  over a particular area.
-    timer = new Timer(500, this);
-  }
+ 
 
   public void mouseMoved(MouseEvent e) {
     //  If the mouse moves, restart the timer.
