@@ -16,9 +16,15 @@ public class AssistiveExample extends JPanel
   JLabel tableLabel = new JLabel();
 
   JCheckBox selectionCheckBox = new JCheckBox("Selection", false);
+<<<<<<< HEAD
   JCheckBox textCheckBox = new JCheckBox("Text", true);
   JCheckBox valueCheckBox = new JCheckBox("Value", false);
   JCheckBox componentCheckBox = new JCheckBox("Component", true);
+=======
+  JCheckBox textCheckBox = new JCheckBox("Text2", false);
+  JCheckBox valueCheckBox = new JCheckBox("Value", false);
+  JCheckBox componentCheckBox = new JCheckBox("Compopopoonent", false);
+>>>>>>> 56ed512a9a1eef1b60ec2da4ced1f0ddf0ea9e51
   JCheckBox actionCheckBox = new JCheckBox("Action", false);
   JCheckBox hypertextCheckBox = new JCheckBox("Hypertext", false);
   JCheckBox iconCheckBox = new JCheckBox("Icon", false);
@@ -58,7 +64,7 @@ public class AssistiveExample extends JPanel
     createGUI();
   }
 
- 
+
 
   public void mouseMoved(MouseEvent e) {
     //  If the mouse moves, restart the timer.
