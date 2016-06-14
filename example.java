@@ -16,9 +16,9 @@ public class AssistiveExample extends JPanel
   JLabel tableLabel = new JLabel();
 
   JCheckBox selectionCheckBox = new JCheckBox("Selection", false);
-  JCheckBox textCheckBox = new JCheckBox("Text", false);
+  JCheckBox textCheckBox = new JCheckBox("Text", true);
   JCheckBox valueCheckBox = new JCheckBox("Value", false);
-  JCheckBox componentCheckBox = new JCheckBox("Component", false);
+  JCheckBox componentCheckBox = new JCheckBox("Component", true);
   JCheckBox actionCheckBox = new JCheckBox("Action", false);
   JCheckBox hypertextCheckBox = new JCheckBox("Hypertext", false);
   JCheckBox iconCheckBox = new JCheckBox("Icon", false);
