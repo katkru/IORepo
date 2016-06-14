@@ -17,7 +17,7 @@ public class AssistiveExample extends JPanel
 
   JCheckBox selectionCheckBox = new JCheckBox("Selection", false);
 <<<<<<< HEAD
-  JCheckBox textCheckBox = new JCheckBox("Text", true);
+  JCheckBox textCheckBox = new JCheckBox("Text1111", true);
   JCheckBox valueCheckBox = new JCheckBox("Value", false);
   JCheckBox componentCheckBox = new JCheckBox("Component", true);
 =======
